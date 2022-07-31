@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d080a;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #1d1116;
+    margin-bottom: 30px;
+}
+header img {
+    width: 400px;
+}
+section {
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+section img {
+    object-fit: contain;
+    width: 100%;
+    height: 500px;
+}
+.artist_img figcaption {
+    color: #FFF;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+.resume p {
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
+    background-color: #1d111c;
+}
+.years {
+    width: 30px;
+    margin-right: 8px;
+    padding: 5px 5px;
+    background-color: #3d242e;
+    font-size: 22px;
+}
+.songs {
+    display: flex;
+    justify-content: center;
+}
+.songs h1, h3 {
+    font-size: 45px;
+    color: #4d2d3b;
+    font-family: 'Futurik', sans-serif;                                                                                                                  
+}
+.songs h3 {
+    font-size: 20px;
+}
+footer {
+    display: flex;
+    justify-content: left;
+    height: 80px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info p {
+    color: #FFF;
+}
